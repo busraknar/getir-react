@@ -237,7 +237,7 @@ button,
 input:where([type='button']),
 input:where([type='reset']),
 input:where([type='submit']) {
-  -webkit-appearance: button;
+  -webkit-appearance: none;
   /* 1 */
   background-color: transparent;
   /* 2 */
@@ -417,7 +417,7 @@ embed,
 object {
   display: block;
   /* 1 */
-  vertical-align: middle;
+  /*vertical-align: middle; */
   /* 2 */
 }
 
