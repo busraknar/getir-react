@@ -8,6 +8,6 @@
         "@/*": ["src/*"]
       }
     },
-    "include": ["src/**/*"],
+    "include": ["src/**/*", "jsconfig.json"],
     "exclude": ["node_modules", "build"]
   }
